@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins-Black.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins-Bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins-Regular.ttf') format('ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.sign{
+    height: 50px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.arrow{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+}
